@@ -1,0 +1,6 @@
+/* Karakter sayfasında modülün eklediği notu yeşil renkle göstrerelim */
+.helloworld-note {
+    color: green;
+    font-weight: bold;
+  }
+  
