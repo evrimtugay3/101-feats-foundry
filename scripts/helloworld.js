@@ -1,4 +1,4 @@
-console.log("Hello World modülü yüklendi!");
+//console.log("Hello World modülü yüklendi!");
 
 Hooks.on("ready", function() {
   ChatMessage.create({
@@ -7,8 +7,8 @@ Hooks.on("ready", function() {
   });
 });
 
-Hooks.on("renderActorSheet5eCharacter", (app, html, data) => {
-  const notDiv = document.createElement("div");
-  notDiv.innerHTML = "<em>Hello World! (modülden gelen not)</em>";
-  html.append(notDiv);
-});
+// Hooks.on("renderActorSheet5eCharacter", (app, html, data) => {
+//   const notDiv = document.createElement("div");
+//   notDiv.innerHTML = "<em>Hello World! (modülden gelen not)</em>";
+//   html.append(notDiv);
+// });
