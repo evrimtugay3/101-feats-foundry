@@ -2,7 +2,7 @@
   "id": "hello-world",
   "title": "Hello World - Örnek Modül",
   "description": "Foundry VTT v12 (DnD5e) için basit bir 'Hello World' modülü.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "Yoichi",
