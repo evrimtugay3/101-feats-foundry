@@ -1,24 +1,25 @@
 {
-    "id": "hello-world",
-    "title": "Hello World - Örnek Modül",
-    "description": "Foundry VTT v12 (DnD5e) için basit bir \u2018Hello World\u2019 modülü.",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "Yoichi",
-        "email": "evrimtugay2@gmail.com",
-        "url": "http://ornek.com"
-      }
-    ],
-    "compatibility": {
-      "minimum": "12",
-      "verified": "12"
-    },
-    "scripts": [
-      "scripts/helloworld.js"
-    ],
-    "styles": [
-      "styles/helloworld.css"
-    ]
-  }
-  
+  "id": "hello-world",
+  "title": "Hello World - Örnek Modül",
+  "description": "Foundry VTT v12 (DnD5e) için basit bir 'Hello World' modülü.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Yoichi",
+      "email": "evrimtugay2@gmail.com",
+      "url": "http://ornek.com"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "scripts": [
+    "scripts/helloworld.js"
+  ],
+  "styles": [
+    "styles/helloworld.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/evrimtugay3/101-feats-foundry/main/module.json",
+  "download": "https://github.com/evrimtugay3/101-feats-foundry/archive/refs/heads/main.zip"
+}
