@@ -2,7 +2,7 @@
   "id": "hello-world",
   "title": "Hello World - Örnek Modül",
   "description": "Foundry VTT v12 (DnD5e) için basit bir 'Hello World' modülü.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Yoichi",
@@ -16,6 +16,15 @@
   },
   "scripts": [
     "scripts/helloworld.js"
+  ],
+  "packs": [
+  {
+    "name": "acrobat-feats",
+    "label": "Acrobat Feats",
+    "path": "packs/acrobat.db",
+    "type": "Item",
+    "system": "dnd5e"
+  }
   ],
   "styles": [
     "styles/helloworld.css"
